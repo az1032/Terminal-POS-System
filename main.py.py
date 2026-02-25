@@ -158,24 +158,11 @@ def scanbarcode():
             return 1
 
         
-    
-
-
-def manageinventory():
-    print("sa")
-    
-         
-       
-       
-
-        
 def mainmenu():
     print("--MAİN MENU--")
     print('---------------------------------------------------------')
     print("[1]-Add New Barcode")
     print("[2]-Scan Barcode")
-    print("[3]-Manage Inventory")
-    print("[4]-End Of Day Report")
     print('---------------------------------------------------------')
 mainmenu()
 choise = input("select >>   ")
@@ -187,6 +174,5 @@ match choise:
     case "2":
         os.system("cls")
         scanbarcode()
-    case "3":
-        os.system("cls")
-        manageinventory()
+    
+
